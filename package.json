@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/html",
-	"version": "6.1.84",
+	"version": "6.1.85",
 	"description": "ctx-core html",
 	"main": "lib.js",
 	"module": "lib.js",
@@ -32,7 +32,7 @@
 		"@ctx-core/env": "^8.3.34",
 		"@ctx-core/logger": "^3.1.18",
 		"@ctx-core/object": "^8.0.15",
-		"@ctx-core/version__app": "^7.1.48"
+		"@ctx-core/version__app": "^7.1.49"
 	},
 	"devDependencies": {
 		"typescript": "^3.9.5"
