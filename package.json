@@ -35,7 +35,7 @@
 		"@ctx-core/version__app": "^7.1.59"
 	},
 	"devDependencies": {
-		"typescript": "^3.9.6"
+		"typescript": "^3.9.7"
 	},
 	"gitHead": "50220c81f8f1fb39f8657646a1f0d1c7cb71a90c"
 }
