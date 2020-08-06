@@ -52,8 +52,3 @@ export declare function _html__links(): string;
  * @returns {string}
  */
 export declare function _html__js(): string;
-/**
- * versioned css file url
- * @param src__script
- */
-export declare function _css__path__versioned(src__script: any): string;

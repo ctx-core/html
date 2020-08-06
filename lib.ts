@@ -2,7 +2,6 @@
  * @module @ctx-core/html/lib
  */
 import { assign } from '@ctx-core/object'
-import { _versioned } from '@ctx-core/version__app'
 import { log } from '@ctx-core/logger'
 const logPrefix = '@ctx-core/html/lib.js'
 export function escape__html(html__unsafe) {
@@ -154,13 +153,4 @@ export function _html__js() {
 		)
 	}
 	return a1__html__js.join('\n')
-}
-/**
- * versioned css file url
- * @param src__script
- */
-export function _css__path__versioned(src__script) {
-	log(`${logPrefix}|$js$path__versioned`)
-	const extName = '.css'
-	return _versioned(`${src__script}${extName}`)
 }
