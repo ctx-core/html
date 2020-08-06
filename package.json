@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/html",
-	"version": "6.1.112",
+	"version": "6.1.113",
 	"description": "ctx-core html",
 	"main": "./index.js",
 	"module": "./index.js",
