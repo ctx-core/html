@@ -2,8 +2,6 @@
  * @module @ctx-core/html/lib
  */
 import { assign } from '@ctx-core/object'
-import { log } from '@ctx-core/logger'
-const logPrefix = '@ctx-core/html/lib.js'
 export function escape__html(html__unsafe) {
 	return html__unsafe
 		.replace(/&/g, '&amp;')
@@ -107,7 +105,6 @@ export function _html(unsafe) {
  * @returns {string}
  */
 export function _html__links() {
-	log(`${logPrefix}|$html__links`)
 	const ctx = assign({
 		css: [],
 		indentation: '',
@@ -134,7 +131,6 @@ export function _html__links() {
  * @returns {string}
  */
 export function _html__js() {
-	log(`${logPrefix}|_html__js`)
 	const ctx =
 		assign(
 			{
