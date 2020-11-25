@@ -14,7 +14,7 @@ export function _links_html(opts: _links_html_type) {
 	return links_html_a1.join('\n')
 }
 export const _html__links = _links_html
-export type _links_html_type = {
-	css: string[]
-	indentation: string
+export interface _links_html_type {
+	css:string[]
+	indentation:string
 }

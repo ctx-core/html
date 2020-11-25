@@ -14,8 +14,8 @@ export function _js_html(opts: _js_html_opts_type) {
 	return js_html_a1.join('\n')
 }
 export const _html__js = _js_html
-export type _js_html_opts_type = {
-	js: string[]
-	script: string[]
-	indentation: string
+export interface _js_html_opts_type {
+	js:string[]
+	script:string[]
+	indentation:string
 }
