@@ -1,5 +1,17 @@
 # @ctx-core/html
 
+## 7.1.0
+
+### Minor Changes
+
+- interface instead of type
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@13.1.0
+  - @ctx-core/env@9.0.33
+
 ## 7.0.31
 
 ### Patch Changes
