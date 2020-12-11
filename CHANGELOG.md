@@ -1,5 +1,13 @@
 # @ctx-core/html
 
+## 7.1.5
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@15.0.1
+  - @ctx-core/env@9.1.3
+
 ## 7.1.4
 
 ### Patch Changes
