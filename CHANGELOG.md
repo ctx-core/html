@@ -1,5 +1,14 @@
 # @ctx-core/html
 
+## 7.1.15
+
+### Patch Changes
+
+- - .rush
+- Updated dependencies [undefined]
+  - @ctx-core/env@9.1.13
+  - @ctx-core/object@15.0.10
+
 ## 7.1.14
 
 ### Patch Changes
