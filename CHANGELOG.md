@@ -1,5 +1,12 @@
 # @ctx-core/html
 
+## 7.1.16
+
+### Patch Changes
+
+- @ctx-core/env@9.1.14
+- @ctx-core/object@15.0.11
+
 ## 7.1.15
 
 ### Patch Changes
