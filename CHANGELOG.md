@@ -1,5 +1,11 @@
 # @ctx-core/html
 
+## 7.1.26
+
+### Patch Changes
+
+- remove @ctx-core/env dependency
+
 ## 7.1.25
 
 ### Patch Changes
