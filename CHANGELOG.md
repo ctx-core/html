@@ -1,5 +1,11 @@
 # @ctx-core/html
 
+## 8.0.8
+
+### Patch Changes
+
+- @ctx-core/object@17.0.8
+
 ## 8.0.7
 
 ### Patch Changes
