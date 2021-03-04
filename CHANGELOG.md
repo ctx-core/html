@@ -1,5 +1,12 @@
 # @ctx-core/html
 
+## 8.0.15
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@17.3.0
+
 ## 8.0.14
 
 ### Patch Changes
