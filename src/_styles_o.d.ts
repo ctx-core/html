@@ -3,5 +3,5 @@
  * @example
  * $styles__obj('position: absolute; left: 5px;') // returns {position: 'absolute, left: '5px'}
  */
-export declare function _styles_o(str__style: any): {};
-export declare const _OBJ__styles: typeof _styles_o;
+export declare function _styles_o(style_str: string): Record<string, string>;
+export { _styles_o as _OBJ__styles };
