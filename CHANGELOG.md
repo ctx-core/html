@@ -1,5 +1,11 @@
 # @ctx-core/html
 
+## 8.1.8
+
+### Patch Changes
+
+- update dependencies
+
 ## 8.1.7
 
 ### Patch Changes
