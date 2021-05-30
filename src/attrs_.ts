@@ -1,12 +1,15 @@
-import { _html } from './_html'
+import { html_ } from './html_'
 /**
  * Returns a string of attrs for an html element
  */
-export function _attrs(obj:Record<string, string>) {
+export function attrs_(obj:Record<string, string>) {
 	if (!obj) return ''
 	let attrs = [] as string[]
 	for (let key in obj) {
-		attrs.push(`${key}=${_html(obj[key])}`)
+		attrs.push(`${key}=${html_(obj[key])}`)
 	}
 	return attrs.join(' ')
+}
+export {
+	attrs_ as _attrs,
 }
