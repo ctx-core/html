@@ -1,5 +1,13 @@
 # @ctx-core/html
 
+## 9.0.3
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/object@19.1.2
+
 ## 9.0.2
 
 ### Patch Changes
