@@ -1,5 +1,11 @@
 # @ctx-core/html
 
+## 9.0.5
+
+### Patch Changes
+
+- update dependencies
+
 ## 9.0.4
 
 ### Patch Changes
