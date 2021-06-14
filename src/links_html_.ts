@@ -1,17 +1,17 @@
 /**
  * html for css link tags
  */
-export function links_html_(opts: links_html__opts_T) {
+export function links_html_(opts:links_html__opts_T):string {
 	const css = opts.css ?? []
 	const indentation = opts.indentation ?? ''
-	let links_html_a1 = [] as string[]
+	let links_html_a:string[] = []
 	for (let i = 0; i < css.length; i++) {
 		const css_file = css[i]
-		links_html_a1.push(
+		links_html_a.push(
 			`${indentation}<link rel="stylesheet" type="text/css" href="${css_file}">`
 		)
 	}
-	return links_html_a1.join('\n')
+	return links_html_a.join('\n')
 }
 export interface links_html__opts_T {
 	css:string[]
