@@ -1,5 +1,13 @@
 # @ctx-core/html
 
+## 10.0.9
+
+### Patch Changes
+
+- tsconfig.json: "lib": ["dom", "ESNext"]
+- Updated dependencies [undefined]
+  - @ctx-core/object@20.1.1
+
 ## 10.0.8
 
 ### Patch Changes
