@@ -1,5 +1,11 @@
 # @ctx-core/html
 
+## 10.0.11
+
+### Patch Changes
+
+- update dependencies
+
 ## 10.0.10
 
 ### Patch Changes
