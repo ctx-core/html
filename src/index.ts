@@ -1,5 +1,6 @@
 export * from './attrs_'
 export * from './class_'
+export * from './class_2'
 export * from './html_'
 export * from './js_html_'
 export * from './links_html_'

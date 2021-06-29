@@ -1,5 +1,11 @@
 # @ctx-core/html
 
+## 10.1.0
+
+### Minor Changes
+
+- - class_2
+
 ## 10.0.13
 
 ### Patch Changes
