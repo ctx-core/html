@@ -1,5 +1,11 @@
 # @ctx-core/html
 
+## 10.2.0
+
+### Minor Changes
+
+- feat: style_2
+
 ## 10.1.0
 
 ### Minor Changes

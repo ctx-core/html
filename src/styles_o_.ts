@@ -1,7 +1,7 @@
 /**
  * Parses a style string & returns an object with each style
  * @example
- * $styles__obj('position: absolute; left: 5px;') // returns {position: 'absolute, left: '5px'}
+ * styles_o_('position: absolute; left: 5px;') // returns {position: 'absolute, left: '5px'}
  */
 export function styles_o_(style_str:string) {
 	const style_str_a = (style_str || '').split(/ *; */)
