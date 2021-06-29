@@ -1,5 +1,11 @@
 # @ctx-core/html
 
+## 10.2.1
+
+### Patch Changes
+
+- fix: index: import style_2
+
 ## 10.2.0
 
 ### Minor Changes
