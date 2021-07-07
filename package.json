@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/html",
-	"version": "10.2.2",
+	"version": "10.2.3",
 	"description": "ctx-core html",
 	"keywords": [
 		"ctx-core",
@@ -27,7 +27,7 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/object": "workspace:^20.2.5"
+		"@ctx-core/object": "workspace:^20.3.0"
 	},
 	"devDependencies": {
 		"typescript": "^4.3.5"
