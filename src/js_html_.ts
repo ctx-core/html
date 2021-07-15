@@ -1,7 +1,7 @@
 /**
  * html for js script tags
  */
-export function js_html_(opts: js_html__opts_T) {
+export function js_html_(opts: js_html__opts_T):string {
 	const indentation = opts.indentation ?? ''
 	const script = opts.script || opts.js || []
 	let js_html_a = [] as string[]

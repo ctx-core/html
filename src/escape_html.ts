@@ -1,4 +1,4 @@
-export function escape_html(unsafe_html:string) {
+export function escape_html(unsafe_html:string):string {
 	return unsafe_html
 		.replace(/&/g, '&amp;')
 		.replace(/</g, '&lt;')

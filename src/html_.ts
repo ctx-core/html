@@ -1,7 +1,7 @@
 /**
  * Returns a string of escaped html
  */
-export function html_(unsafe:string) {
+export function html_(unsafe:string):string {
 	return unsafe
 		.replace(/&/g, '&amp;')
 		.replace(/</g, '&lt;')

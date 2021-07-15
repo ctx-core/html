@@ -3,7 +3,7 @@
  * @example
  * style_({position: 'absolute, left: '5px'}) // returns 'position: absolute; left: 5px;'
  */
-export function style_(obj:Record<string, any>, ...style_a:string[]) {
+export function style_(obj:Record<string, any>, ...style_a:string[]):string {
 	const a = [] as string[]
 	a.push(...style_a)
 	for (let key in obj) {

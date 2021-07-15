@@ -4,7 +4,7 @@ import { style_ } from './style_.js'
 /**
  * Assigns additional styles to the style attribute on the HTMLElement el.
  */
-export function assign_style(el:HTMLElement, styles:Record<string, string|number>) {
+export function assign_style(el:HTMLElement, styles:Record<string, string|number>):HTMLElement {
 	const el_style = el.getAttribute('style') || ''
 	const styles_o = styles_o_(el_style)
 	el.setAttribute(
