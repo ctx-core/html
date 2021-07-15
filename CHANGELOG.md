@@ -1,5 +1,16 @@
 # @ctx-core/html
 
+## 11.0.0
+
+### Major Changes
+
+- "type": "module": module npm type
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@21.0.0
+
 ## 10.2.6
 
 ### Patch Changes
