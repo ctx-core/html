@@ -1,5 +1,11 @@
 # @ctx-core/html
 
+## 11.0.12
+
+### Patch Changes
+
+- fix: module import
+
 ## 11.0.11
 
 ### Patch Changes

@@ -1,4 +1,4 @@
-import { html_ } from './html_'
+import { html_ } from './html_.js'
 /**
  * Returns a string of attrs for an html element
  */
