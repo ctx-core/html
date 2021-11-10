@@ -1,5 +1,13 @@
 # @ctx-core/html
 
+## 11.0.19
+
+### Patch Changes
+
+- compile using swc
+- Updated dependencies
+  - @ctx-core/object@21.0.22
+
 ## 11.0.18
 
 ### Patch Changes
