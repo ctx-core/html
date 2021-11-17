@@ -1,6 +1,6 @@
 import { assign } from '@ctx-core/object'
-import { styles_o_ } from './styles_o_.js'
 import { style_ } from './style_.js'
+import { styles_o_ } from './styles_o_.js'
 /**
  * Assigns additional styles to the style attribute on the HTMLElement el.
  */
