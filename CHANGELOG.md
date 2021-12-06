@@ -1,5 +1,11 @@
 # @ctx-core/html
 
+## 11.0.28
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+
 ## 11.0.27
 
 ### Patch Changes
