@@ -1,5 +1,14 @@
 # @ctx-core/html
 
+## 11.0.29
+
+### Patch Changes
+
+- package.json: - module
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/object@22.0.0
+
 ## 11.0.28
 
 ### Patch Changes
