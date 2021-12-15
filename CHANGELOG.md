@@ -1,5 +1,13 @@
 # @ctx-core/html
 
+## 11.0.30
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+  - @ctx-core/object@22.0.1
+
 ## 11.0.29
 
 ### Patch Changes
