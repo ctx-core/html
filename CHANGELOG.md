@@ -1,5 +1,13 @@
 # @ctx-core/html
 
+## 11.0.33
+
+### Patch Changes
+
+- \*.d.ts export
+- Updated dependencies
+  - @ctx-core/object@22.0.4
+
 ## 11.0.32
 
 ### Patch Changes
