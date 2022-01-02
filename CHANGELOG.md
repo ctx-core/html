@@ -1,5 +1,11 @@
 # @ctx-core/html
 
+## 11.0.38
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+
 ## 11.0.37
 
 ### Patch Changes
