@@ -1,5 +1,13 @@
 # @ctx-core/html
 
+## 11.0.41
+
+### Patch Changes
+
+- sideEffects = false
+- Updated dependencies
+  - @ctx-core/object@22.0.12
+
 ## 11.0.40
 
 ### Patch Changes
