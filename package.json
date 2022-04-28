@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/html",
-	"version": "11.0.47",
+	"version": "11.0.48",
 	"description": "ctx-core html",
 	"keywords": [
 		"ctx-core",
@@ -33,7 +33,7 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/object": "^22.1.8"
+		"@ctx-core/object": "^22.1.9"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.57",
