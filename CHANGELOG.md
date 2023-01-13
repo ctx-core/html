@@ -1,5 +1,11 @@
 # @ctx-core/html
 
+## 11.0.61
+
+### Patch Changes
+
+- rimraf: ^3.0.2 -> ^4.0.1
+
 ## 11.0.60
 
 ### Patch Changes
