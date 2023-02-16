@@ -1,5 +1,15 @@
 # @ctx-core/html
 
+## 11.1.0
+
+### Minor Changes
+
+- html\_\_escape: aliased by escape_html
+- style\_\_: aliased by style_2
+- style\_\_assign: aliased by assign_style
+- extract _.js & _.d.ts into directories
+- class\_\_: aliased by class_2
+
 ## 11.0.69
 
 ### Patch Changes

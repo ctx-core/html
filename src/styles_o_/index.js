@@ -1,11 +1,13 @@
 /**
  * Parses a style string & returns an object with each style
+ * @param style_str{string}
+ * @returns {Record<string, string>}
  * @example
  * styles_o_('position: absolute; left: 5px;') // returns {position: 'absolute, left: '5px'}
  */
-export function styles_o_(style_str:string):Record<string, string> {
+export function styles_o_(style_str) {
 	const style_str_a = (style_str || '').split(/ *; */)
-	const styles_o:Record<string, string> = {}
+	const styles_o = {}
 	for (let i = 0; i < style_str_a.length; i++) {
 		const i_style_str = style_str_a[i]
 		if (!i_style_str) continue

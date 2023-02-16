@@ -1,10 +1,13 @@
 /**
  * Returns class style attribute from obj
+ * @param obj{Record<string, any>}
+ * @param style_a{string[]}
+ * @returns {string}
  * @example
  * style_({position: 'absolute, left: '5px'}) // returns 'position: absolute; left: 5px;'
  */
-export function style_(obj:Record<string, any>, ...style_a:string[]):string {
-	const a = [] as string[]
+export function style_(obj, ...style_a) {
+	const a = []
 	a.push(...style_a)
 	for (let key in obj) {
 		const value = obj[key]
@@ -12,6 +15,4 @@ export function style_(obj:Record<string, any>, ...style_a:string[]):string {
 	}
 	return a.join(' ')
 }
-export {
-	style_ as _style,
-}
+export { style_ as _style, }
