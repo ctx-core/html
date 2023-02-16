@@ -1,5 +1,11 @@
 # @ctx-core/html
 
+## 11.1.1
+
+### Patch Changes
+
+- package.json: fix: entry
+
 ## 11.1.0
 
 ### Minor Changes
