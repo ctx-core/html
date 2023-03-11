@@ -1,6 +1,6 @@
 /**
  * Parses a style string & returns an object with each style
- * @param style_str{string}
+ * @param {string}style_str
  * @returns {Record<string, string>}
  * @example
  * styles_o_('position: absolute; left: 5px;') // returns {position: 'absolute, left: '5px'}

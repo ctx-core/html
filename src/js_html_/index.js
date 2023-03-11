@@ -1,11 +1,11 @@
 /**
  * html for js script tags
- * @param {import('./index.d.ts').js_html__opts_T}opts
+ * @param {import('./index.d.ts').js_html__params_T}params
  * @returns {string}
  */
-export function js_html_(opts) {
-	const indentation = opts.indentation ?? ''
-	const script = opts.script || opts.js || []
+export function js_html_(params) {
+	const indentation = params.indentation ?? ''
+	const script = params.script || params.js || []
 	let js_html_a = []
 	for (let i = 0; i < script.length; i++) {
 		const js_file = script[i]

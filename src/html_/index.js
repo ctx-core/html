@@ -1,5 +1,7 @@
 /**
  * Returns a string of escaped html
+ * @param {string}unsafe
+ * @returns string
  */
 export function html_(unsafe) {
 	return (
@@ -11,4 +13,7 @@ export function html_(unsafe) {
 			.replace(/'/g, '&#039;')
 	)
 }
-export { html_ as _html, }
+export {
+	html_ as html__escape,
+	html_ as _html,
+}

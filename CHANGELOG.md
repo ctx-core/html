@@ -1,5 +1,22 @@
 # @ctx-core/html
 
+## 11.2.0
+
+### Minor Changes
+
+- - links_html\_\_params_T: aliased by links_html\_\_opts_T
+- arguments: ...a:attr_def_T[]
+
+  attrs*
+  class*
+  class**
+  html*
+  style*
+  style**
+
+- - attr_def_T
+- - js_html\_\_params_T: aliased by js_html\_\_opts_T
+
 ## 11.1.19
 
 ### Patch Changes

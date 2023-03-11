@@ -3,7 +3,7 @@
  * @example
  * styles_o_('position: absolute; left: 5px;') // returns {position: 'absolute, left: '5px'}
  */
-export declare function styles_o_(style_str: string): Record<string, string>
+export declare function styles_o_(style_str:string):Record<string, string>
 export {
 	styles_o_ as _styles_o,
 	styles_o_ as _OBJ__styles,
