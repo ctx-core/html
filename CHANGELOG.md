@@ -1,5 +1,11 @@
 # @ctx-core/html
 
+## 11.3.0
+
+### Minor Changes
+
+- - attr\_,raw\__attr_
+
 ## 11.2.30
 
 ### Patch Changes

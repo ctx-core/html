@@ -1,4 +1,5 @@
 import { isArray } from '@ctx-core/function'
+import { attr_ } from '../attr_/index.js'
 import { html_ } from '../html_/index.js'
 /**
  * Returns a string of attrs for a html element
@@ -18,7 +19,7 @@ export function attrs_(...attr_def_a) {
 			for (const key in attr_def) {
 				const val = attr_def[key]
 				if (val != null) {
-					a.push(`${key}="${html_(attr_def[key])}"`)
+					a.push(attr_(key, attr_def[key]))
 				}
 			}
 		}
