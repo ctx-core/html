@@ -1,5 +1,11 @@
 # @ctx-core/html
 
+## 11.5.0
+
+### Minor Changes
+
+- - dataset\__data_attrs_
+
 ## 11.4.0
 
 ### Minor Changes
