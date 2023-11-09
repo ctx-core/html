@@ -1,5 +1,11 @@
 # @ctx-core/html
 
+## 11.5.4
+
+### Patch Changes
+
+- @ctx-core/object: ^29.0.0 -> ^29.1.0
+
 ## 11.5.3
 
 ### Patch Changes
