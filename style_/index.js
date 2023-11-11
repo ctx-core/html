@@ -2,7 +2,7 @@ import { isArray } from '@ctx-core/function'
 const eol_semicolon_regex = /;\s*$/
 /**
  * Returns class style attribute from obj
- * @param {import('../_types').attr_def_T}style_def_a
+ * @param {import('../_types/index.js').attr_def_T}style_def_a
  * @param style_a{string[]}
  * @returns {string}
  * @example

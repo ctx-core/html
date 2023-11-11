@@ -1,7 +1,7 @@
 import { isArray } from '@ctx-core/function'
 /**
  * Returns class html attribute from r
- * @param {import('../_types').attr_def_T}class_def_a
+ * @param {import('../_types/index.js').attr_def_T}class_def_a
  * @returns {string}
  * @example
  * class_({class_1: true, class__: false, class_3: true}) // returns 'class_1 class_3'

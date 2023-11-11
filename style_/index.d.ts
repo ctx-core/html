@@ -1,4 +1,4 @@
-import type { attr_def_T } from '../_types'
+import type { attr_def_T } from '../_types/index.js'
 /**
  * Returns class style attribute from obj
  * @example

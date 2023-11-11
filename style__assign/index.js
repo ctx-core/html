@@ -3,7 +3,7 @@ import { styles_o_ } from '../styles_o_/index.js'
 /**
  * Assigns additional styles to the style attribute on the HTMLElement el.
  * @param el{HTMLElement}
- * @param {import('../_types').attr_def_T}style_def_a
+ * @param {import('../_types/index.js').attr_def_T}style_def_a
  * @returns {HTMLElement}
  * */
 export function style__assign(el, ...style_def_a) {

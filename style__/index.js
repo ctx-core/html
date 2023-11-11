@@ -1,6 +1,6 @@
 import { style_ } from '../style_/index.js'
 /**
- * @param {import('../_types').attr_def_T}memo_style_def_a
+ * @param {import('../_types/index.js').attr_def_T}memo_style_def_a
  * @returns {(...style_def_a:string[])=>string}
  * @private
  */

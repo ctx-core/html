@@ -1,4 +1,4 @@
-import type { attr_def_T } from '../_types'
+import type { attr_def_T } from '../_types/index.js'
 /**
  * Returns class html attribute from r
  * @example

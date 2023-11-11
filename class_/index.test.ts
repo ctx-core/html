@@ -1,6 +1,6 @@
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
-import { class_ } from '../index'
+import { class_ } from '../index.js'
 test('class_', ()=>{
 	equal(class_('foo', 'bar'), 'foo bar')
 	equal(class_('foo', {

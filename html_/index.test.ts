@@ -1,6 +1,6 @@
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
-import { html_ } from '../index'
+import { html_ } from '../index.js'
 test('html_', ()=>{
 	equal(html_(
 		`<div>"&'foo'bar"</div>`

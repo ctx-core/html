@@ -1,4 +1,4 @@
-import type { attr_def_T } from '../_types'
+import type { attr_def_T } from '../_types/index.js'
 /**
  * Assigns additional styles to the style attribute on the HTMLElement el.
  */

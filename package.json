@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/html",
-	"version": "11.5.5",
+	"version": "11.6.0",
 	"description": "ctx-core html",
 	"keywords": [
 		"ctx-core",
@@ -17,10 +17,25 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.d.ts",
-	"svelte": "./src/index.js",
+	"files": [
+		"*.d.ts",
+		"./_types",
+		"./attr_",
+		"./attrs_",
+		"./class_",
+		"./class__",
+		"./dataset__data_attrs",
+		"./html_",
+		"./js_html_",
+		"./links_html_",
+		"./style_",
+		"./style__",
+		"./style__assign",
+		"./styles_o_"
+	],
+	"types": "./index.d.ts",
 	"exports": {
-		".": "./src/index.js",
+		".": "./index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
@@ -33,7 +48,8 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/object": "^30.0.0"
+		"@ctx-core/function": "workspace:^21.21.0",
+		"@ctx-core/object": "^30.1.0"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",

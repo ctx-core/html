@@ -1,9 +1,8 @@
 import { isArray } from '@ctx-core/function'
 import { attr_ } from '../attr_/index.js'
-import { html_ } from '../html_/index.js'
 /**
- * Returns a string of attrs for a html element
- * @param {import('../_types').attr_def_T}attr_def_a
+ * Returns a string of attrs for an html element
+ * @param {import('../_types/index.js').attr_def_T}attr_def_a
  * @returns {string}
  */
 export function attrs_(...attr_def_a) {
