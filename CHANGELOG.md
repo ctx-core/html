@@ -1,5 +1,14 @@
 # @ctx-core/html
 
+## 11.6.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+- Updated dependencies
+  - @ctx-core/function@21.21.2
+  - @ctx-core/object@30.1.2
+
 ## 11.6.1
 
 ### Patch Changes
