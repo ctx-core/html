@@ -1,5 +1,12 @@
 # @ctx-core/html
 
+## 11.6.4
+
+### Patch Changes
+
+- @ctx-core/function: workspace:^21.21.3 -> 21.22.0
+- @ctx-core/object: ^30.1.3 -> ^30.2.0
+
 ## 11.6.3
 
 ### Patch Changes
