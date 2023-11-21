@@ -1,5 +1,15 @@
 # @ctx-core/html
 
+## 11.6.21
+
+### Patch Changes
+
+- tsx: ^4.1.4 -> ^4.2.0
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/function@21.22.17
+  - @ctx-core/object@31.1.3
+
 ## 11.6.20
 
 ### Patch Changes
