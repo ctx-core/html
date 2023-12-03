@@ -1,5 +1,13 @@
 # @ctx-core/html
 
+## 11.6.34
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/function@21.22.30
+  - @ctx-core/object@31.1.16
+
 ## 11.6.33
 
 ### Patch Changes
