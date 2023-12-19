@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/html",
-	"version": "11.6.57",
+	"version": "11.6.58",
 	"description": "ctx-core html",
 	"keywords": [
 		"ctx-core",
@@ -50,8 +50,8 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/function": "21.24.8",
-		"@ctx-core/object": "^31.1.35"
+		"@ctx-core/function": "21.24.9",
+		"@ctx-core/object": "^31.1.36"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",
