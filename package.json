@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/html",
-	"version": "11.6.58",
+	"version": "11.6.59",
 	"description": "ctx-core html",
 	"keywords": [
 		"ctx-core",
@@ -20,20 +20,7 @@
 	"files": [
 		"*.d.ts",
 		"*.js",
-		"*.json",
-		"./_types",
-		"./attr_",
-		"./attrs_",
-		"./class_",
-		"./class__",
-		"./dataset__data_attrs",
-		"./html_",
-		"./js_html_",
-		"./links_html_",
-		"./style_",
-		"./style__",
-		"./style__assign",
-		"./styles_o_"
+		"*.json"
 	],
 	"types": "./index.d.ts",
 	"exports": {
@@ -50,13 +37,12 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/function": "21.24.9",
-		"@ctx-core/object": "^31.1.36"
+		"ctx-core": "^5.1.0"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",
 		"check-dts": "^0.7.2",
-		"tsx": "^4.6.2",
+		"tsx": "^4.7.0",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
