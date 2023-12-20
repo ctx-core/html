@@ -1,5 +1,11 @@
 # @ctx-core/html
 
+## 11.6.65
+
+### Patch Changes
+
+- ctx-core: ^5.3.0 -> ^5.3.1
+
 ## 11.6.64
 
 ### Patch Changes
