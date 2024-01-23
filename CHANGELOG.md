@@ -1,5 +1,20 @@
 # @ctx-core/html
 
+## 11.7.0
+
+### Minor Changes
+
+- ./html:
+
+      + background_image_style_
+      + background_image_style_o_
+      + html_style_url_: + style_url_ alias
+
+### Patch Changes
+
+- Updated dependencies
+  - ctx-core@5.26.0
+
 ## 11.6.107
 
 ### Patch Changes
