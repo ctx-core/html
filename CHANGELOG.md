@@ -1,5 +1,16 @@
 # @ctx-core/html
 
+## 11.8.0
+
+### Minor Changes
+
+- - html*attr_val*,attr*val*
+
+### Patch Changes
+
+- Updated dependencies
+  - ctx-core@5.36.0
+
 ## 11.7.15
 
 ### Patch Changes
