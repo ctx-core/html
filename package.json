@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/html",
-	"version": "11.8.14",
+	"version": "11.8.15",
 	"description": "ctx-core html",
 	"keywords": [
 		"ctx-core",
@@ -38,7 +38,7 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^6.2.1"
+		"ctx-core": "^6.2.3"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",
