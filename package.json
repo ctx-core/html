@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/html",
-	"version": "11.8.24",
+	"version": "11.8.25",
 	"description": "ctx-core html",
 	"keywords": [
 		"ctx-core",
@@ -33,12 +33,15 @@
 		"exec": "$@",
 		"prepublishOnly": "pnpm clean && pnpm build && pnpm test",
 		"test": "pnpm run /^test:/",
+		"test:size": "size-limit",
 		"test:types": "check-dts",
 		"test:unit": "tsx node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^6.5.1"
+		"@size-limit/preset-small-lib": "^11.0.2",
+		"ctx-core": "^6.5.2",
+		"size-limit": "^11.0.2"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",
@@ -50,5 +53,14 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"sideEffects": false
+	"sideEffects": false,
+	"size-limit": [
+		{
+			"name": "class_",
+			"import": {
+				".": "{ class_ }"
+			},
+			"limit": "101 B"
+		}
+	]
 }

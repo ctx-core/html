@@ -1,5 +1,12 @@
 # @ctx-core/html
 
+## 11.8.25
+
+### Patch Changes
+- 
+- html_class_,class_: reduce size-limit: 101 B
+- ctx-core: ^6.5.1 -> ^6.5.2
+
 ## 11.8.24
 
 ### Patch Changes
