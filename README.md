@@ -4,7 +4,7 @@ Utility html functions.
 
 ## class_
 
-class_ has the same functionality as [clsx](https://github.com/lukeed/clsx/) yet is 101 B, or < 50% the size of clsx. It's also a good way to break up tailwind class usage...which is useful for reordering classes into logical groups.
+class_ has the same functionality as [clsx](https://github.com/lukeed/clsx/) yet is 94 B, or < 50% the size of clsx. It's also a good way to break up tailwind class usage...which is useful for reordering classes into logical groups.
 
 This example uses relementjs, but any UI library can be used.
 
