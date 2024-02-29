@@ -20,4 +20,10 @@ div_({
 }, 'Hello!')
 ```
 
-More docs.
+This library is implemented in [ctx-core](https://github.com/ctx-core/ctx-core) which has 0 dependencies & has a wide breadth of modules. Importing `class_` in the above example would look like:
+
+```ts
+import { class_ } from 'ctx-core/html'
+```
+
+More docs to come.
