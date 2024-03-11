@@ -39,9 +39,9 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@size-limit/preset-small-lib": "^11.0.2",
+		"@size-limit/preset-small-lib": "^11.0.3",
 		"ctx-core": "^6.5.4",
-		"size-limit": "^11.0.2"
+		"size-limit": "^11.0.3"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",
