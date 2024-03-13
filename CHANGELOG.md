@@ -1,5 +1,16 @@
 # @ctx-core/html
 
+## 11.8.29
+
+### Patch Changes
+
+- size-limit: ^11.0.3 -> ^11.1.0
+- @size-limit/preset-small-lib: ^11.0.3 -> ^11.1.0
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@6.5.6
+
 ## 11.8.28
 
 ### Patch Changes
