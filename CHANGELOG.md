@@ -1,5 +1,13 @@
 # @ctx-core/html
 
+## 11.8.35
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 11.8.34
 
 ### Patch Changes
