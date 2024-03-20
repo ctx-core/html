@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/html",
-	"version": "11.8.35",
+	"version": "11.8.36",
 	"description": "ctx-core html",
 	"keywords": [
 		"ctx-core",
@@ -44,7 +44,7 @@
 	},
 	"dependencies": {
 		"@size-limit/preset-small-lib": "^11.1.1",
-		"ctx-core": "^6.6.1",
+		"ctx-core": "^6.6.2",
 		"size-limit": "^11.1.1"
 	},
 	"devDependencies": {
