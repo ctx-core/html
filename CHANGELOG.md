@@ -1,5 +1,13 @@
 # @ctx-core/html
 
+## 11.8.86
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+
 ## 11.8.85
 
 ### Patch Changes
